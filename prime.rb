@@ -1,3 +1,4 @@
+=begin
 def prime?(integer)
   if integer % 2 === 0 && integer != 2
     return false
@@ -17,6 +18,7 @@ def prime?(integer)
     check += 1
   end
 end
+=end
 
 def prime?(integer)
   if integer % 2 === 0 && integer != 2 || integer < 2
